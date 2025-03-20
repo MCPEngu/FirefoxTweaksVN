@@ -1,4 +1,4 @@
-/******
+8/******
 *    name: Firefox Max Speed UserJS
 * version: 115+
 *    urls: https://github.com/FirefoxUniverse/FirefoxTweaksVN/main/user.js [repo]
@@ -156,12 +156,12 @@ user_pref("privacy.sanitize.useOldClearHistoryDialog", true);
 
 // GoogleDNS
 // https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-pc-mobile.682181/post-24688026
-//user_pref("network.trr.uri", "https://dns.nextdns.io/");
-//user_pref("network.trr.custom_uri", "https://dns.nextdns.io/");
-//user_pref("network.trr.mode", 2);
+user_pref("network.trr.uri", "https://dns.nextdns.io/");
+user_pref("network.trr.custom_uri", "https://dns.nextdns.io/");
+user_pref("network.trr.mode", 2);
 
 // Enable ECS
-//user_pref("network.trr.disable-ECS", false);
+user_pref("network.trr.disable-ECS", false);
 
 // Enable Kyber to access blocked websites
 user_pref("security.tls.enable_kyber", true);
@@ -196,7 +196,7 @@ user_pref("browser.urlbar.update2.engineAliasRefresh", true);
 
 // Enable Sleeping Tab
 user_pref("floorp.tabsleep.enabled", true);
-user_pref("floorp.tabsleep.tabTimeoutMinutes", 6);
+user_pref("floorp.tabsleep.tabTimeoutMinutes", 90);
 
 // Enable PWA
 user_pref("browser.ssb.enabled", true);
