@@ -1,4 +1,4 @@
-8/******
+/******
 *    name: Firefox Max Speed UserJS
 * version: 115+
 *    urls: https://github.com/FirefoxUniverse/FirefoxTweaksVN/main/user.js [repo]
